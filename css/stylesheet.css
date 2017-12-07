@@ -58,7 +58,8 @@ p{
   font-family:'Raleway', sans-serif;
   font-size: 30px;
   color: orange;
-  
+  text-align: center;
+
 }
 #t1 {
 
@@ -75,11 +76,7 @@ p{
 #drinks img{
 
   display: inline;
-
-
-
-
-}
+  }
 
 
 #t2{
@@ -94,6 +91,7 @@ p{
   float:left;
   width:50%;
   margin-left: 20px;
+
 
 }
 .footer{
@@ -119,8 +117,8 @@ p{
   width:40%;
 }
 .test-model{
-  float: right;
-  padding: 20px;
+  float: ;
+  padding: 10px;
   box-shadow: 5px 5px 5px 5px #ccc;
   border:1px solid #grey;
   background: white;
@@ -131,7 +129,10 @@ p{
 .first{
   float: right;
 }
+
+}
 .col-md-6{
-  text-align:right;
-  margin-top:180px ;
+  float: ;
+  margin-right: 0;
+
 }

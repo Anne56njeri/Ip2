@@ -1,13 +1,38 @@
 .jumbotron{
-  margin-bottom: 0px;
+  margin-bottom: ;
   background-image: url(../images/landing.jpg);
-  background-position: 0% 25%;
-  background-size: cover;
-  background-repeat:  no-repeat;
+  background-position:;
+  background-size:cover;
+  background-repeat:;
   background-color: white;
 
-  height: 480px;
+  height: ;
 }
+.breakfast{
+  background-image:url(../images/breakfast.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 40%;
+
+
+}
+.inner-text{
+text-align: center;
+color: white;
+font-family:'Crimson Text', serif;
+}
+.lunch{
+  background-image:url(../images/lunch.jpg);
+  background-size: cover;
+  height: 40%;
+
+}
+.Dinner{
+  background-image:url(../images/dinner.jpg);
+  background-size: contain;
+  height: 40%;
+}
+
 img{
   display: block;
   margin:auto;
@@ -19,9 +44,7 @@ p{
   color: white;
   font-size: 40px;
 }
-.row{
- float: right;
-}
+
 .test-box{
 
   float:left;
@@ -30,20 +53,85 @@ p{
   box-shadow: 5px 5px 5px 5px #ccc;
   border:1px solid #grey;
   background: white;
-
-
-
+}
+.inner-text2{
+  font-family:'Raleway', sans-serif;
+  font-size: 30px;
+  color: orange;
+  
 }
 #t1 {
 
   color:black;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
-}
-.column1{
-  float: right;
-  width:50%;
-  margin-top: 120px;
-  margin-left: 5px;
 
+  text-align:left;
+}
+
+
+
+
+#drinks img{
+
+  display: inline;
+
+
+
+
+}
+
+
+#t2{
+  color:black;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: right;
+
+
+}
+.col-md-6{
+  float:left;
+  width:50%;
+  margin-left: 20px;
+
+}
+.footer{
+  margin-top: 180%;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat:  no-repeat;
+  background-color:red;
+  background-image: url(../images/foodsBg.jpg);
+  height:40%;
+}
+
+
+.col-sm-6{
+  float:right;
+  margin-top:140px ;
+
+  width:50%;
+}
+.col-md-4{
+  display: inline-block;
+  margin: auto;
+  width:40%;
+}
+.test-model{
+  float: right;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px #ccc;
+  border:1px solid #grey;
+  background: white;
+
+
+
+}
+.first{
+  float: right;
+}
+.col-md-6{
+  text-align:right;
+  margin-top:180px ;
 }

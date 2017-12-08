@@ -170,13 +170,38 @@ p{
   margin-bottom: 10%;
   width:40%;
 }
-.menu2:{
-  background-color:blue;
-  height: 40%;
-}
+
 #b2{
-  color:orange;
-  font-size:20px;
+  color:black;
+  font-size:15px;
   font-family: 'Raleway', sans-serif;
 
+}
+#b3{
+  color:black;
+  font-size:15px;
+  font-family: 'Raleway', sans-serif;
+  border-left: 1px solid lightgrey;
+  padding-left: 30px;
+}
+.inner-text4{
+  color:orange;
+  font-size:30px;
+  font-family: 'Raleway', sans-serif;
+
+}
+.inner-text5{
+  color:black;
+  font-size:30px;
+  font-family: 'Raleway', sans-serif;
+}
+.clients{
+  padding: 20px;
+  box-shadow: 5px 5px 5px 5px #ccc;
+  border:1px solid #grey;
+  background: white;
+  margin-bottom: 20px;
+}
+.clientimages img {
+  display: inline;
 }

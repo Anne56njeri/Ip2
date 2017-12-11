@@ -229,15 +229,15 @@ p{
 
 }
 .chicken{
-  padding:20px;
+  padding:30px;
   background-color: white;
 }
 .beef{
-  padding: 20px;
+  padding: 30px;
   background-color: white;
 }
 .pizza{
-  padding: 20px;
+  padding: 30px;
   background-color: white;
 }
 #first{
@@ -263,4 +263,28 @@ height: 5%;
 font-family: 'Raleway', sans-serif;
 box-shadow: 5px 5px 5px 5px #ccc;
 color: orange;
+}
+.tablink{
+  width:10%;
+  background-color: white;
+
+  height: 5%;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 5px 5px 5px 5px #ccc;
+  color: black;
+  float:inherit;
+
+}
+div.tab button:hover{
+  background-color: orange;
+}
+.subscribe{
+  background-color: darkorange;
+  width:20%;
+  margin-left:5%;
+
+.tom{
+  background-color: grey;
+
+
 }

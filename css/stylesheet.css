@@ -1,3 +1,4 @@
+
 .jumbotron{
   margin-bottom: ;
   background-image: url(../images/landing.jpg);
@@ -9,10 +10,7 @@
 
   height: ;
 }
-.container {
-    display;
-    cursor: pointer;
-}
+
  .up:hover{
    background-color: orange;
 
@@ -272,18 +270,102 @@ p{
   text-align:center;
 
 }
-.chicken{
+.chicken {
   padding:30px;
   background-color: white;
 }
-.beef{
+.beef {
   padding: 30px;
   background-color: white;
 }
-.pizza{
+.pizza {
   padding: 30px;
   background-color: white;
 }
+.nopadding{
+  height:;
+  margin:0;
+}
+
+.nopadding > div[class^="col-md-4"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+.tablink {
+  background-color:white;
+  color:black;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 24.57%;
+}
+
+.tablink:hover {
+  color:grey;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display:none;
+  padding: 10px;
+  height:30% ;
+  position:clip;
+  overflow: hidden;
+}
+
+
+.drink5 img{
+  height:90%;
+  width:90%;
+
+}
+.drink4 img{
+  height:90%;
+  width:90%;
+
+}
+.drink6 img{
+  height:90%;
+  width:90%;
+}
+.chicken1 img{
+  height:90%;
+  width:90%;
+}
+.chicken2 img{
+  height:90%;
+  width:90%;
+}
+.chicken3 img{
+  height:90%;
+  width:90%;
+}
+.rice1 img{
+  height:100%;
+  width:90%;
+}
+.rice2 img{
+  height:100%;
+  width:90%;
+}
+.rice3 img{
+  height:100%;
+  width:90%;
+}
+.header{
+  color:orange;
+  font-size:20px;
+  font-family: 'Raleway', sans-serif;
+  text-align:center;
+}
+#home {background-color: white;}
+#news {background-color: white;}
+#contact {background-color:white;}
+#about {background-color:white;}
+
 #first{
   color:black;
   font-size:50px;
@@ -316,15 +398,7 @@ font-family: 'Raleway', sans-serif;
 box-shadow: 5px 5px 5px 5px #ccc;
 color: orange;
 }
-.tablink{
-  width:10%;
-  background-color: white;
 
-  height: 5%;
-  font-family: 'Raleway', sans-serif;
-  box-shadow: 5px 5px 5px 5px #ccc;
-  color: black;
-  float:inherit;
 
 }
 div.tab button:hover{
@@ -346,4 +420,3 @@ div.tab button:hover{
 }
 #in img{
   display: inline;
-}

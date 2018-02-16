@@ -37,7 +37,7 @@
        <div class="box-models">
         <div class="row no-gutter ">
           <div class="col-md-3">
-            <div class="row" no-margin>
+            <div class="row">
               <p id="first">Happy Hour</p>
             </div>
 
@@ -69,7 +69,7 @@
 
 
 
-    <div class="container-fluid">
+    <div class="container">
     <div class="row">
       <div class="col-sm-6-in">
           <div class="test-box">
@@ -97,6 +97,7 @@
     <button class="tablinks">View Gallery</button>
   </div>
 
+</div>
 </div>
 </div>
 
@@ -133,21 +134,80 @@
 </div>
 </div>
 <div class="container-fluid">
+ <div class="box-model">
+     <div class="container there">
 
-  <div class="tab">
-    <button class="tablink"><strong>Fastfood</strong></button>
-    <button class="tablink"><strong>Chicken</strong></button>
-    <button class="tablink"><strong>Beef</strong></button>
-    <button class="tablink"><strong>Pizza</strong></button>
-  </div>
-<div class="box-model">
-  <div class="row">
-       <div class="chicken"><img src="images/chickenBurger.jpg"></div>
-        <div class="beef"><img src="images/beefBurger.jpg"></div>
-        <div class="pizza"><img src="images/chickenPizza.jpg"></div>
+        <button class="tablink" onclick="openPage('home',this,'orange')">FastFood</button>
+        <button class="tablink" onclick="openPage('news',this,'orange')">Drinks</button>
+        <button class="tablink" onclick="openPage('contact',this,'orange')">Chicken</button>
+        <button class="tablink" onclick="openPage('about',this,'orange')">Rice</button>
+        <div id="home"class="tabcontent">
+
+          <div class="row nopadding">
+
+           <div class="col-md-4">
+             <div class="chicken"><img src="images/chickenBurger.jpg"></div>
+           </div>
+
+
+           <div class="col-md-4">
+              <div class="beef"><img src="images/beefBurger.jpg"></div>
+            </div>
+            <div class="col-md-4">
+              <div class="pizza"><img src="images/chickenPizza.jpg"></div>
+            </div>
         </div>
-       </div>
+      </div>
+        <div id="news" class="tabcontent">
+          <div class="row nopadding">
+           <div class="col-md-4">
+             <div class="drink4"><img src="images/drink4.jpg"></div>
+             <h3 class="header">Tahini Twist</h3>
+           </div>
+           <div class="col-md-4">
+              <div class="drink6"><img src="drink6.jpg"></div>
+              <h3 class="header">Sunrise Sunday</h3>
+            </div>
+            <div class="col-md-4">
+              <div class="drink5"><img src="drink5.jpg"></div>
+              <h3 class="header">Seven Deadly Sins</h3>
+            </div>
+        </div>
+      </div>
+        <div id="contact" class="tabcontent">
+          <div class="row nopadding">
+           <div class="col-md-4">
+             <div class="chicken1"><img src="images/chicken1.jpg"></div>
+             <h3 class="header">Chicken Tikka</h3>
+           </div>
+           <div class="col-md-4">
+              <div class="chicken2"><img src="images/chicken2.jpg"></div>
+              <h3 class="header">Chicken stroganoff</h3>
+            </div>
+            <div class="col-md-4">
+              <div class="chicken3"><img src="images/chicken3.jpg"></div>
+              <h3 class="header">Tahini Roasted Chicken</h3>
+            </div>
+        </div>
+        </div>
+        <div id="about" class="tabcontent">
+           <div class="row nopadding">
+             <div class="col-md-4">
+               <div class="rice1"><img src="images/rice1.jpg"></div>
+             </div>
+             <div class="col-md-4">
+                <div class="rice2"><img src="images/rice2.jpg"></div>
+              </div>
+              <div class="col-md-4">
+                <div class="rice3"><img src="images/rice3.jpg"></div>
+              </div>
+
+         </div>
+        </div>
+      </div>
     </div>
+
+
 
 
   <div class="container">
